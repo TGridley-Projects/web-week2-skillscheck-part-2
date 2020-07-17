@@ -37,7 +37,7 @@ var arrayLength = rubberDucks.length
 
 //Code here
 function getLast(arr){
-    
+    return arr[arr.length-1]
 }
 
 
@@ -49,6 +49,9 @@ function getLast(arr){
 //The passed-in array should NOT be modified.
 
 //Code here
+function getElement (arr, ind){
+    return arr[ind]
+}
 
 
 //////////////////PROBLEM 5////////////////////
@@ -59,6 +62,9 @@ function getLast(arr){
 //to the given value. You do not need to return the array.
 
 //Code here
+function changeElement(arr, ind, val){
+    arr[ind]=val
+}
 
 
 //////////////////PROBLEM 6////////////////////
@@ -67,3 +73,7 @@ function getLast(arr){
 //the last element. trim should return the array.
 
 //Code here
+function trim (arr){
+    arr.pop()
+    return arr
+}
